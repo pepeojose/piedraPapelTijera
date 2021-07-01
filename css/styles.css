@@ -12,7 +12,7 @@ body {
     color: hsl(171, 47%, 52%);
 }
 
-.header-figure {
+.header__figure {
     margin-top: 0;
     margin-bottom: 0.5rem;
     margin-left: auto;
@@ -20,11 +20,11 @@ body {
     padding-top: 1rem;
 }
 
-.header-image {
+.header__image {
     width: 15%;
 }
 
-.title {
+.header__title {
     margin-top: 0;
     padding-bottom: 2rem;
 }
@@ -42,24 +42,24 @@ body {
     align-items: center;
 }
 
-.user-marker,
-.pc-marker {
+.maker__user,
+.maker__pc {
     font-size: 2rem;
 }
 
-.main-title {
+.main__title {
     font-size: 1.7rem;
     text-align: center;
 }
 
-.main-paragraph {
+.main__paragraph {
     margin-bottom: 4rem;
     text-align: center;
     font-size: 1.2rem;
 }
 
-.form-fieldset,
-.form-fieldset__button {
+.form__fieldset,
+.form__fieldset--button {
     margin-bottom: 3rem;
     display: flex;
     justify-content: space-evenly;
@@ -67,32 +67,32 @@ body {
     border: none;
 }
 
-.form-fieldset__button {
+.form__fieldset--button {
     width: 500px;
     margin: 0 auto;
 }
 
-.form-radio {
+.form__radio {
     cursor: pointer;
     padding: 0 1rem;
     border-radius: 20px;
     transition: background-color .3s ease;
 }
 
-.form-radio:hover {
+.form__radio:hover {
     background-color: #dfdca3;
 }
 
-.form-image {
+.form__image {
     width: 5rem;
     height: 5rem;
 }
 
-.form-input {
+.form__input {
     display: none;
 }
 
-.form-btn {
+.form__btn {
     font-size: 1.5rem;
     padding: 1rem 2rem;
     border-radius: 1rem;
@@ -121,7 +121,7 @@ body {
 /* -----------------------Media Queries----------------------- */
 
 @media screen and (max-width: 800px) {
-    .header-image {
+    .header__image {
         width: 25%;
     }
     .plays {
@@ -134,10 +134,10 @@ body {
 }
 
 @media screen and (max-width: 415px) {
-    .header-image {
+    .header__image {
         width: 45%;
     }
-    .form-fieldset__button {
+    .form__fieldset--button {
         width: 100%;
     }
     .plays {

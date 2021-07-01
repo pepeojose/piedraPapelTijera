@@ -11,50 +11,50 @@
 
 <body>
     <header class="header">
-        <figure class="header-figure">
-            <img class="header-image" src="./img/fingers.svg" alt="Imagen de tres manos, con la posicion del juego piedra papel tijera">
+        <figure class="header__figure">
+            <img class="header__image" src="./img/fingers.svg" alt="Imagen de tres manos, con la posicion del juego piedra papel tijera">
         </figure>
-        <h1 class="title">Piedra Papel Tijera</h1>
+        <h1 class="header__title">Piedra Papel Tijera</h1>
     </header>
     <main class="main">
         <div>
-            <h2 class="main-title">Haz tu selección e intenta ganar a la máquina</h2>
-            <p class="main-paragraph">Haz click en uno de los dibujos y pulsa el boton de Jugada</p>
+            <h2 class="main__title">Haz tu selección e intenta ganar a la máquina</h2>
+            <p class="main__paragraph">Haz click en uno de los dibujos y pulsa el boton de Jugada</p>
         </div>
         <div id="marker" class="marker">
-            <p id="userMarker" class="user-marker">User: <span id="userMarkerSpan" class="user-marker__span">0</span></p>
-            <p id="pcMarker" class="pc-marker">PC: <span id="pcMarkerSpan" class="pc-marker__span">0</span></p>
+            <p id="userMarker" class="maker__user">User: <span id="userMarkerSpan">0</span></p>
+            <p id="pcMarker" class="maker__pc">PC: <span id="pcMarkerSpan">0</span></p>
         </div>
         <form name="form1" class="form" id="form">
-            <fieldset class="form-fieldset">
-                <label for="rock" class="form-radio">
-                    <img class="form-image" src="./img/fist.svg" alt="Imagen de un puño">
-                    <span class="form-span">
+            <fieldset class="form__fieldset">
+                <label for="rock" class="form__radio">
+                    <img class="form__image" src="./img/fist.svg" alt="Imagen de un puño">
+                    <span>
                         Piedra
                     </span>
-                <input type="radio" name="selection" id="rock" class="form-input" value='piedra'>
+                <input type="radio" name="selection" id="rock" class="form__input" value='piedra'>
                 </label>
 
-                <label for="paper" class="form-radio">
-                    <img class="form-image" src="./img/palm.svg" alt="Imagen de una mano abierta">
-                    <span class="form-span">
+                <label for="paper" class="form__radio">
+                    <img class="form__image" src="./img/palm.svg" alt="Imagen de una mano abierta">
+                    <span">
                         Papel
                     </span>
-                    <input type="radio" name="selection" id="paper" class="form-input" value='papel'>
+                    <input type="radio" name="selection" id="paper" class="form__input" value='papel'>
                 </label>
 
-                <label for="scissors" class="form-radio">
-                    <img class="form-image" src="./img/hand.svg" alt="Imagen de una mano con los dedos en forma de tijera">
-                    <span class="form-span">
+                <label for="scissors" class="form__radio">
+                    <img class="form__image" src="./img/hand.svg" alt="Imagen de una mano con los dedos en forma de tijera">
+                    <span">
                         Tijera
                     </span>
-                    <input type="radio" name="selection" id="scissors" class="form-input" value='tijera'>
+                    <input type="radio" name="selection" id="scissors" class="form__input" value='tijera'>
                 </label>
             </fieldset>
 
-            <fieldset class="form-fieldset__button">
-                <button type="button" class="form-btn" id="btnSubmit">Jugada</button>
-                <button type="reset" class="form-btn" id="btnReset">Nueva Partida</button>
+            <fieldset class="form__fieldset--button">
+                <button type="button" class="form__btn" id="btnSubmit">Jugada</button>
+                <button type="reset" class="form__btn" id="btnReset">Nueva Partida</button>
             </fieldset>
         </form>
         <div class="plays">

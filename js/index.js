@@ -48,7 +48,7 @@ document.getElementById('btnSubmit').addEventListener('click', () => {
 
     let myChoice
 
-    let input_radio2 = document.querySelectorAll('.form-input')
+    let input_radio2 = document.querySelectorAll('.form__input')
     let inputsRadio = input_radio2.forEach(ele => {
         if (ele.checked) myChoice = ele.value
     })
